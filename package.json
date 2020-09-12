@@ -1,27 +1,28 @@
 {
-  "name": "web",
-  "version": "1.0.0",
-  "description": "Diseño web",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dperea10/web.git"
-  },
-  "author": "Diego Perea",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dperea10/web/issues"
-  },
-  "homepage": "https://github.com/dperea10/web#readme",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
-  },
-  "dependencies": {
-    "bootstrap": "^4.5.2",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
-  }
+    "name": "web",
+    "version": "1.0.0",
+    "description": "Diseño web",
+    "main": "index.js",
+    "scripts": {
+        "dev": "lite-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dperea10/web.git"
+    },
+    "author": "Diego Perea",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dperea10/web/issues"
+    },
+    "homepage": "https://github.com/dperea10/web#readme",
+    "devDependencies": {
+        "lite-server": "^2.5.4"
+    },
+    "dependencies": {
+        "bootstrap": "^4.5.2",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1"
+    }
 }
