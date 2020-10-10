@@ -1,0 +1,18 @@
+$anranjado: rgb(21, 172, 109);
+@mixin margens($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+.jumbotron {
+    background-color: $anranjado;
+    color: black;
+    margin-top: 50px;
+}
+
+footer {
+    padding: 10px 10px 0 10px;
+    background-color: $anranjado;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
